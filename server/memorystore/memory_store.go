@@ -21,8 +21,8 @@ func InitMemStore() error {
 	defaultEnvs := map[string]interface{}{
 		// string envs
 		constants.EnvKeyJwtRoleClaim:     "role",
-		constants.EnvKeyOrganizationName: "Authorizer",
-		constants.EnvKeyOrganizationLogo: "https://www.authorizer.dev/images/logo.png",
+		constants.EnvKeyOrganizationName: "Dhananjay",
+		constants.EnvKeyOrganizationLogo: "https://avatars.githubusercontent.com/u/47073516?v=4",
 
 		// boolean envs
 		constants.EnvKeyDisableBasicAuthentication:       false,
