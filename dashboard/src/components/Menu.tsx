@@ -146,12 +146,13 @@ export const Sidebar = ({ onClose, ...rest }: SidebarProps) => {
 				<NavLink to="/">
 					<Flex alignItems="center" mt="6">
 						<Image
-							src="https://authorizer.dev/images/logo.png"
+							src="https://avatars.githubusercontent.com/u/47073516?v=4"
+							rounded={'full'}
 							alt="logo"
 							height="36px"
 						/>
 						<Text fontSize="large" ml="2" letterSpacing="3">
-							AUTHORIZER
+							Dhananjay
 						</Text>
 					</Flex>
 				</NavLink>

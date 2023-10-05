@@ -16,7 +16,7 @@ export function AuthLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<Flex
 			h="100vh"
-			bg="gray.100"
+			bg="blackAlpha.900"
 			alignItems="center"
 			justifyContent="center"
 			direction={['column', 'column']}
@@ -24,12 +24,13 @@ export function AuthLayout({ children }: { children: React.ReactNode }) {
 		>
 			<Flex alignItems="center" maxW="100%">
 				<Image
-					src="https://authorizer.dev/images/logo.png"
+					src="https://avatars.githubusercontent.com/u/47073516?v=4"
+					rounded={'full'}
 					alt="logo"
 					height="50"
 				/>
-				<Text fontSize="x-large" ml="3" letterSpacing="3">
-					AUTHORIZER
+				<Text fontSize="x-large" ml="3" color={"whiteAlpha.900"} letterSpacing="3">
+					Dhananjay
 				</Text>
 			</Flex>
 
@@ -49,7 +50,8 @@ export function AuthLayout({ children }: { children: React.ReactNode }) {
 						{children}
 					</Box>
 					<Text color="gray.600" fontSize="sm">
-						Current Version: {data.meta.version}
+						{/* Current Version: {data.meta.version} */}
+						Current Version : Latest
 					</Text>
 				</>
 			)}
